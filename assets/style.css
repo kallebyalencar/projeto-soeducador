@@ -82,5 +82,16 @@ main {
     background-color: rgba(211, 211, 211, 0.167);
 }
 
+.container {
+    border: 2px dashed red;
+}
+
+div > .imagem-direita {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+
 
 
