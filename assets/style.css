@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.167);
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+header > nav > .image-logo {
+    margin-right: 70px;
+}
+
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+#search {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.box-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.364);
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+
+.box-pesquisa input {
+    border: none;
+    outline: none;
+    background:transparent;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.box-pesquisa .material-symbols-outlined {
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.button-cadastro {
+    background-color: #8A02FF;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.329);
+}
+
+main {
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.167);
+}
+
+
+
