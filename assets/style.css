@@ -15,7 +15,7 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 header > nav{
@@ -26,7 +26,7 @@ header > nav{
     gap: 10px;
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 header > nav > .image-logo {
@@ -36,7 +36,7 @@ header > nav > .image-logo {
 nav > a {
     margin: 10px;
     text-decoration: none;
-    color: gray;
+    color: #535353;
 }
 
 #search {
@@ -63,7 +63,7 @@ nav > a {
 }
 
 .box-pesquisa .material-symbols-outlined {
-    font-size: 20px;
+    font-size: 22px;
     color: gray;
     cursor: pointer;
 }
@@ -83,14 +83,56 @@ main {
 }
 
 .container {
-    border: 2px dashed red;
+    display: flex;
+    position: relative;
+    padding: 0 12rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-esquerda {
+    width: 800px;
+}
+
+.conteudo-esquerda > h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: #381e53;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.conteudo-esquerda > p {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+}
+
+.conteudo-esquerda > .comece {
+    background-color: #1F8D45;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+}
+
+.conteudo-esquerda > .cursos {
+    background-color: #39286B;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
 }
 
 div > .imagem-direita {
     display: flex;
     justify-content: flex-end;
-    margin-right: 200px;
-    margin-bottom: 40px;
 }
 
 
