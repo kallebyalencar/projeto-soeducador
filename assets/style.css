@@ -88,6 +88,7 @@ main {
     padding: 0 12rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 90px;
 }
 
 .conteudo-esquerda {
@@ -134,6 +135,33 @@ div > .imagem-direita {
     display: flex;
     justify-content: flex-end;
 }
+
+hr {
+    border: none;
+    height: 1.5px;
+    width: 1200px;
+    background-color: rgb(207, 207, 207);
+    margin: auto;
+}
+
+.associados {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.associados2 {
+  display: flex;
+  margin: 0 20px 0 20px;
+}
+
+.associados2 > p {
+    display: flex;
+    align-items: center;
+    margin: 0 90px 0 90px;
+}
+
+
 
 
 
