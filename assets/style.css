@@ -75,6 +75,7 @@ nav > a {
     padding: 9px;
     border-radius: 5px;
     border: 0.5px solid rgba(0, 0, 0, 0.329);
+    cursor: pointer;
 }
 
 main {
@@ -111,25 +112,32 @@ main {
     margin: 15px 0 15px 0;
 }
 
+
 .conteudo-esquerda > .comece {
     background-color: #1F8D45;
     padding: 10px;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 14px;
     border: none;
     border-radius: 5px;
-    width: 180px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
 }
 
 .conteudo-esquerda > .cursos {
     background-color: #39286B;
     padding: 10px;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 14px;
     border: none;
     border-radius: 5px;
-    width: 180px;
+    width: 200px;
+    height: 50px;
 }
+
 
 div > .imagem-direita {
     display: flex;
@@ -140,7 +148,7 @@ hr {
     border: none;
     height: 1.5px;
     width: 1200px;
-    background-color: rgb(207, 207, 207);
+    background-color: #cfcfcf7c;
     margin: auto;
 }
 
@@ -152,16 +160,149 @@ hr {
 
 .associados2 {
   display: flex;
-  margin: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
+  gap: 10px;
 }
 
 .associados2 > p {
+    color: #808080bf;
     display: flex;
     align-items: center;
     margin: 0 90px 0 90px;
 }
 
+.associados2 > p > img {
+    margin-left: 10px;
+}
+
+.mais_procurados {
+    display: block;
+    padding: 4rem 0 0 12rem;
+    margin-bottom: 30px;
+}
+
+.mais_procurados > h1 {
+    color: #430283;
+}
+
+.mais_procurados  p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 1.1em;
+}
+
+.linha_botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12rem;
+}
+
+.mais_procurados  button {
+    float: right;
+    background-color: #39286B;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.ex_cursos {
+    display: flex;
+    padding: 0 12rem;
+}
 
 
+.ex_cursos > .lista_cursos, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    gap: 40px;
+    transition: 0.3s;
+}
+
+.ex_cursos > .lista_cursos, a:hover {
+    color: #430283;
+    transform: translateY(-3px);
+}
 
 
+.alg_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 0 12rem;
+}
+
+.alg_cursos h2 {
+    font-size: 18px;
+    color: #430283;
+    line-height: 25px;
+}
+
+.alg_cursos img {
+    border-radius: 15px;
+}
+
+
+.estrela {
+  color: #ff9d00;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.alg_cursos hr {
+    border: none;
+    height: 0.1em;
+    width: 260px;
+    background-color: #5900fe1b;
+    margin: 20px 0 10px 0;
+}
+
+.horario {
+    display: flex;
+}
+
+.horario > p {
+    color: #380365;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.horas {
+    color: #8902ff88;
+    font-size: 24px;
+    transform: scale(0.9); /* força redução */
+    display: inline-block;
+}
+
+.lista_alg_cursos {
+    margin-bottom: 30px;
+}
+
+.alg_cursos > .lista_alg_cursos {
+    list-style: none;
+}
+
+.lista_alg_cursos button {
+    margin-top: 5px;
+    border: 2px solid #8902ff6c;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lista_alg_cursos button:hover {
+    background-color: #8A02FF;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
