@@ -212,26 +212,26 @@ hr {
     cursor: pointer;
 }
 
-.ex_cursos {
+.lista_cursos {
     display: flex;
-    padding: 0 12rem;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
 }
 
-
-.ex_cursos > .lista_cursos, a {
-    display: flex;
-    list-style: none;
+.lista_cursos a {
+    display: inline-block;
     text-decoration: none;
     color: gray;
-    gap: 40px;
     transition: 0.3s;
 }
 
-.ex_cursos > .lista_cursos, a:hover {
+.lista_cursos a:hover {
     color: #430283;
     transform: translateY(-3px);
 }
-
 
 .alg_cursos {
     display: flex;
