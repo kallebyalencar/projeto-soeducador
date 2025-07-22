@@ -74,7 +74,7 @@ nav > a {
     font-weight: bold;
     padding: 9px;
     border-radius: 5px;
-    border: 0.5px solid rgba(0, 0, 0, 0.329);
+    border: none;
     cursor: pointer;
 }
 
@@ -122,8 +122,9 @@ main {
     border: none;
     border-radius: 5px;
     width: 150px;
-    height: 50px;
+    height: 40px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .conteudo-esquerda > .cursos {
@@ -135,7 +136,8 @@ main {
     border: none;
     border-radius: 5px;
     width: 200px;
-    height: 50px;
+    height: 40px;
+    cursor: pointer;
 }
 
 
@@ -237,7 +239,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-top: 30px;
+    margin: 30px 0 70px 0;
     padding: 0 12rem;
 }
 
@@ -306,3 +308,58 @@ hr {
     font-weight: bold;
     transition: 0.3s;
 }
+
+.video {
+    display: flex;
+    position: relative;
+    padding: 0 12rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.video > .video_esquerda {
+    width: 800px;
+}
+
+.video h2 {
+    color: #43037b;
+    margin-bottom: 10px;
+    font-size: 24px
+}
+
+.video_esquerda p {
+    font-size: 14px;
+    color: gray;
+}
+
+.video img {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.video_esquerda button {
+    background-color: #1F8D45;
+    padding: 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.jornada {
+    background-color: #6204b4;
+    color: white;
+    width: 100vw;
+
+}
+
+.jornada_central {}
+
+.jornada_central h1 {}
