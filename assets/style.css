@@ -3,11 +3,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(211, 211, 211, 0.167);
+    background-color: rgba(211, 211, 211, 0.167); 
+    
+    overflow-x: hidden;
 }
 
 header {
@@ -79,7 +82,6 @@ nav > a {
 }
 
 main {
-    padding: 10px;
     background-color: rgba(211, 211, 211, 0.167);
 }
 
@@ -357,5 +359,49 @@ hr {
 .jornada {
     background-color: #6404B7;
     color: white;
+    margin-bottom: 20px;
 }
+
+.jornada_central {
+    display: flex;
+    padding: 0 12rem;
+}
+
+.jornada_central > img {
+    width: 250px;
+    margin-top: 50px;
+    
+}
+
+.jornada_central h1 { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 31px;
+    margin: 100px 50px 0 50px;
+}
+
+.jornada_central p {
+    display: flex;
+    width: 500px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.574);
+    margin: 20px 50px 0 50px;
+}
+
+.jornada_central button {
+    display: block;
+    margin: 20px auto;
+    background-color: #31035a;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
