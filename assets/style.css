@@ -381,6 +381,7 @@ hr {
     margin: 100px 50px 0 50px;
 }
 
+
 .jornada_central p {
     display: flex;
     width: 500px;
@@ -401,6 +402,15 @@ hr {
     border-radius: 7px;
     border: none;
     cursor: pointer;
+}
+
+
+.jornada_central button:hover {
+    background-color: white;
+    color: #6404B7;
+    font-weight: bolder;
+    transition: 0.7s;
+    border: 1px solid #6404B7 ;
 }
 
 
