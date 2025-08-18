@@ -356,7 +356,7 @@ hr {
 }
 
 
-.jornada {
+.jornada {  
     background-color: #6404B7;
     color: white;
     margin-bottom: 20px;
@@ -370,7 +370,6 @@ hr {
 .jornada_central > img {
     width: 250px;
     margin-top: 50px;
-    
 }
 
 .jornada_central h1 { 
@@ -396,7 +395,7 @@ hr {
     margin: 20px auto;
     background-color: #31035a;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     width: 300px;
     height: 40px;
     border-radius: 7px;
@@ -408,10 +407,87 @@ hr {
 .jornada_central button:hover {
     background-color: white;
     color: #6404B7;
-    font-weight: bolder;
-    transition: 0.7s;
+    transition: 0.3s;
     border: 1px solid #6404B7 ;
 }
 
+.jornada_central button > span {
+    position: relative;
+    top: 7px;
+    height: 100px;
+}
 
+.certificados {
+    margin-top: 40px;
+    padding: 0 12rem;
+}
 
+.certificados article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.impulsione {
+    width: 400px;
+}
+
+.impulsione h2 {
+    font-size: 24px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.impulsione p {
+    margin-top: 20px;
+    width: 360px;
+    font-size: 15px;
+    color: #C9AADD;
+}
+
+.o_certificado img {
+    display: block;
+    margin: auto;
+    width: 450px;
+    margin-bottom: 60px;
+}
+
+.selo {
+    position: absolute;
+}
+
+.selo > img {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    left: 350px;
+    bottom: 80px;
+}
+
+.usar_para {
+    margin-left: 20px;
+}
+
+.usar_para > ul > h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.usar_para > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C9AADD;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.usar_para > ul > li > p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.usar_para > ul > li > span {
+    font-size: 43px;
+    color: white;
+    font-weight: normal;
+}
