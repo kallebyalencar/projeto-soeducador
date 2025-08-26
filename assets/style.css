@@ -404,17 +404,9 @@ hr {
 }
 
 
-.jornada_central button:hover {
-    background-color: white;
-    color: #6404B7;
-    transition: 0.3s;
-    border: 1px solid #6404B7 ;
-}
-
 .jornada_central button > span {
     position: relative;
-    top: 7px;
-    height: 100px;
+    top: 5px;
 }
 
 .certificados {
@@ -490,4 +482,21 @@ hr {
     font-size: 43px;
     color: white;
     font-weight: normal;
+}
+
+/*Comentários dos Alunos */
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 12rem;
+    text-align: center;
+}
+
+.comentarios h2 {
+    color: #430283;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
