@@ -257,9 +257,9 @@ hr {
 
 
 .estrela {
-  color: #ff9d00;
-  font-size: 24px;
-  cursor: pointer;
+    color: #ff9d00;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .alg_cursos hr {
@@ -486,17 +486,63 @@ hr {
 
 /*Comentários dos Alunos */
 
-.comentarios {
+.comentarios > h2 {
+    color: #430283;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 100px 0 40px 0;
+}
+
+.comentarios_img > picture {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.comentarios_img > picture > img {
+    width: 380px;
+    height: 100%;
     align-items: center;
-    padding: 70px 12rem;
+    border: 1px solid #C9AADD;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Lista de todos os cursos*/
+
+.todos_cursos > h2 {
+    display: block;
+    width: 698px;
+    color: #430283;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
     text-align: center;
 }
 
-.comentarios h2 {
-    color: #430283;
+.link_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 12rem;
+    margin-top: 10px;
+}
+
+.link_cursos > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gray;
     font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
+    border: 1px solid #C9AADD;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.link_cursos > a:hover {
+    color: black;
 }
