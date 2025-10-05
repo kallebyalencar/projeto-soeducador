@@ -163,9 +163,9 @@ hr {
 }
 
 .associados2 {
-  display: flex;
-  margin: 0 10px 0 10px;
-  gap: 10px;
+    display: flex;
+    margin: 0 10px 0 10px;
+    gap: 10px;
 }
 
 .associados2 > p {
@@ -545,4 +545,29 @@ hr {
 
 .link_cursos > a:hover {
     color: black;
+}
+
+.button-cursos{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.button-cursos button {
+    border: none;
+    background-color: #39286B;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.button-cursos > button > a {
+    text-decoration: none;
+    color: white;
 }
